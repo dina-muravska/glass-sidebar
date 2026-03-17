@@ -49,6 +49,7 @@ img {
   max-width: 100%;
   height: auto;
 }
+
 /*=============== LAYOUT ===============*/
 .image-bg {
   position: absolute;
@@ -60,6 +61,13 @@ img {
   object-position: center;
   z-index: -1;
 }
+
+.main {
+  padding-top: 5rem;
+  margin-inline: 1.5rem;
+  color: var(--white-color);
+}
+
 /*=============== HEADER ===============*/
 .header {
   position: fixed;
@@ -68,6 +76,42 @@ img {
   right: 0;
   z-index: 100;
   margin: 1rem;
+}
+
+.header__container {
+  width: 100%;
+  height: var(--header-height);
+  background-color: hsla(0, 0%, 0%, 0.2);
+  backdrop-filter: blur(16px);
+  border-radius: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-inline: 1rem;
+}
+
+.header__logo {
+  display: flex;
+  align-items: center;
+  column-gap: 0.25rem;
+  color: var(--white-color);
+  font-weight: 500;
+}
+
+.header__logo i {
+  font-size: 1.5rem;
+}
+
+.header__toggle {
+  width: 32px;
+  height: 32px;
+  border-radius: 0.5rem;
+  border: none;
+  outline: none;
+  font-size: 1.5rem;
+  background-color: hsla(0, 0%, 0%, 0.2);
+  color: var(--white-color);
+  cursor: pointer;
 }
 /*=============== SIDEBAR ===============*/
 
