@@ -171,7 +171,9 @@ img {
   background-color: hsla(0, 0%, 0%, 0.2);
 }
 /* Show sidebar */
-
+.show-sidebar {
+  left: 0;
+}
 /*=============== DROPDOWN ===============*/
 .drop__button {
   width: 100%;
